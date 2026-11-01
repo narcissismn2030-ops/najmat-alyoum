@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>نجمة اليوم ⭐</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800;900&display=swap">
+<style>
+:root{--gold:#ffc83d;--gold2:#ff9d1a;--ink:#0a1a55;--glass:rgba(255,255,255,.14);--line:rgba(255,255,255,.28);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:Cairo,Tajawal,system-ui,sans-serif;color:#fff;background:linear-gradient(165deg,#1238b8 0%,#2a7be4 55%,#4fc3f7 100%) fixed;background-color:#1238b8;overflow-x:hidden}
+#sky{position:fixed;inset:0;pointer-events:none;z-index:0}
+#sky i{position:absolute;width:3px;height:3px;border-radius:50%;background:#fff;animation:tw 3s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.15;transform:scale(.6)}50%{opacity:1;transform:scale(1.6)}}
+#cv{position:fixed;inset:0;pointer-events:none;z-index:1}
+header,main{position:relative;z-index:2}
+header{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;padding:12px}
+header button{background:var(--glass);border:1px solid var(--line);color:#fff;font:600 15px Cairo,sans-serif;padding:9px 16px;border-radius:99px;cursor:pointer}
+header button.on{background:#fff;color:var(--ink)}
+main{max-width:760px;margin:0 auto;padding:8px 16px 48px}
+.view{display:none}.view.on{display:block}
+.center{text-align:center}
+.bigstar{width:130px;height:130px;filter:drop-shadow(0 0 26px rgba(255,200,61,.9));animation:pulse 3s ease-in-out infinite}
+@keyframes pulse{50%{transform:scale(1.07) rotate(-3deg)}}
+h1{font-size:clamp(42px,12vw,76px);font-weight:900;margin:6px 0;line-height:1.2;text-shadow:0 4px 24px rgba(10,26,85,.5)}
+.tag{font-size:clamp(16px,4.2vw,21px);opacity:.95;margin:0 0 20px}
+.card{background:var(--glass);border:1px solid var(--line);border-radius:26px;padding:20px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);margin:14px 0;text-align:right}
+.card h2{margin:0 0 12px;font-size:21px}
+.card h3{margin:14px 0 8px;font-size:17px}
+input,select,textarea{width:100%;font:600 16px Cairo,sans-serif;padding:12px 14px;border-radius:14px;border:2px solid transparent;background:#fff;color:var(--ink);margin:0 0 10px}
+input:focus,select:focus,textarea:focus,button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+textarea{min-height:110px;resize:vertical}
+.btn{font:800 17px Cairo,sans-serif;border:0;border-radius:16px;padding:12px 20px;cursor:pointer;background:#fff;color:var(--ink)}
+.gold{background:linear-gradient(180deg,#ffe07a,var(--gold) 45%,var(--gold2));color:#4a2a00;box-shadow:0 8px 24px rgba(255,157,26,.5)}
+.big{width:100%;font-size:21px;padding:16px}
+.ghost{background:var(--glass);color:#fff;border:1px solid var(--line)}
+.danger{background:#ff5a6a;color:#fff}
+.row{display:flex;gap:8px;flex-wrap:wrap}.row>*{flex:1 1 140px}
+.stu{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid var(--line)}.stu input{margin:0;flex:1 1 100%}.stu select{margin:0;flex:1 1 130px;padding:10px;font-size:14px}
+.tbl{width:100%;border-collapse:collapse}.tbl th,.tbl td{border:1px solid var(--line);padding:8px;text-align:right;font-size:15px}.stu .btn{padding:10px 12px;font-size:14px;flex:none}
+.hint{font-size:14px;opacity:.85;margin:4px 0 10px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center}
+.stats b{display:block;font-size:30px;color:var(--gold)}
+.honor{padding-top:18px}
+.honor .bigstar{width:170px;height:170px}
+.lbl{font-size:22px;font-weight:800;color:var(--gold);margin:6px 0}
+.nm{font-size:clamp(44px,13vw,92px);font-weight:900;line-height:1.35;margin:6px 0;text-shadow:0 0 30px rgba(255,200,61,.7),0 4px 20px rgba(10,26,85,.6)}
+.nm span{display:inline-block;margin:0 .1em;opacity:0;animation:rev .9s cubic-bezier(.2,1.3,.4,1) forwards}
+@keyframes rev{from{opacity:0;transform:translateY(30px) scale(.4);filter:blur(10px)}to{opacity:1;transform:none;filter:none}}
+.motto{font-size:clamp(19px,5vw,26px);font-weight:700;margin:6px 0}
+.msg{font-size:clamp(17px,4.5vw,22px);background:var(--glass);border:1px solid var(--line);border-radius:20px;padding:14px 18px;margin:16px auto;max-width:520px;animation:rev 1s 1.4s both}
+.cnt{font-size:15px;opacity:.9}
+.ctl{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}
+.item{display:flex;align-items:center;gap:10px;padding:10px 6px;border-bottom:1px solid var(--line)}
+.item svg{width:34px;height:34px;flex:none}
+.item .t{flex:1;font-weight:700}.item small{display:block;font-weight:400;opacity:.85}
+.badge{background:var(--gold);color:#4a2a00;font-weight:800;border-radius:99px;padding:2px 12px}
+details summary{list-style:none;cursor:pointer}details summary::-webkit-details-marker{display:none}
+.tabs{display:flex;gap:8px;margin-bottom:8px}.tabs .btn{flex:1;padding:10px}.tabs .on{background:#fff;color:var(--ink)}
+#toast{position:fixed;bottom:calc(20px + env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%) translateY(30px);background:#fff;color:var(--ink);font-weight:700;padding:12px 22px;border-radius:99px;opacity:0;transition:.3s;z-index:9;pointer-events:none;max-width:90vw;text-align:center}
+#toast.on{opacity:1;transform:translateX(-50%)}
+/* Certificate */
+#mt{position:fixed;top:calc(10px + env(safe-area-inset-top,0px));left:10px;z-index:5;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--glass);color:#fff;font-size:20px;cursor:pointer}
+.certwrap{width:100%;overflow:hidden;--s:1}
+.cert{width:1122px;height:790px;transform:scale(var(--s));transform-origin:top right;background:#fffdf5;color:var(--ink);padding:26px;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.cert .in{height:100%;border:6px double #d9a21b;outline:14px solid #1740c9;outline-offset:-1px;border-radius:6px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:34px 60px;text-align:center;background:radial-gradient(circle at 50% 0,#e8f1ff,#fffdf5 60%)}
+.cert .bs{width:120px;height:120px}
+.cert .c1{font-size:30px;font-weight:800;color:#1740c9;margin:0}
+.cert .c2{font-size:64px;font-weight:900;margin:0;color:#b87800}
+.cert .c3{font-size:22px;margin:0}
+.cert .c4{font-size:74px;font-weight:900;color:#1740c9;margin:0;border-bottom:4px solid #ffc83d;padding:0 40px;line-height:1.4}
+.cert .c5{font-size:20px;line-height:1.8;max-width:880px;margin:0}
+.cert .ft{display:flex;justify-content:space-between;width:100%;font-size:20px;font-weight:700}
+@media(prefers-reduced-motion:reduce){#sky i,.bigstar,.nm span,.msg{animation:none;opacity:1}}
+@media print{
+@page{size:A4 landscape;margin:0}
+html,body{background:#fff!important;height:auto;overflow:hidden}
+:root{padding:0!important}
+#sky,#cv,header,.view:not(.on),.noprint,#toast{display:none!important}
+main{padding:0;max-width:none}#v-plog{padding:12mm}#v-plog,#v-plog *{color:#000!important}#v-plog .card{background:#fff!important;border:0;backdrop-filter:none}.tbl th,.tbl td{border-color:#000!important}html.pl,html.pl body{overflow:visible!important;height:auto!important}
+.certwrap{height:auto!important;overflow:visible}
+.cert{transform:none!important;page-break-inside:avoid;break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3b0"/><stop offset=".5" stop-color="#ffc83d"/><stop offset="1" stop-color="#ff9d1a"/></linearGradient><symbol id="st" viewBox="0 0 100 100"><polygon points="50,5 62,37 96,38 69,59 79,93 50,73 21,93 31,59 4,38 38,37" fill="url(#g)" stroke="#fff3b0" stroke-width="2" stroke-linejoin="round"/></symbol></defs></svg>
+<div id="sky"></div><canvas id="cv"></canvas>
+<header class="noprint" id="nav">
+<button data-go="home">الرئيسية</button><button data-go="list">النجمات</button><button data-go="admin">لوحة المعلمة</button>
+</header>
+<main>
+<section class="view center" id="v-home">
+<svg class="bigstar"><use href="#st"/></svg>
+<h1>نجمة اليوم</h1>
+<p class="tag">لكل مجتهدة بريق، ولكل مبدعة نجمة تستحق أن تضيء</p>
+<div class="card">
+<h2>اختاري نجمة اليوم</h2>
+<select id="csel" aria-label="الفصل"></select>
+<select id="sel" aria-label="أسماء الطالبات"></select>
+<button class="btn gold big" id="go">اختاري نجمتي ⭐</button>
+<p class="hint" id="cls" style="margin:12px 0 0"></p>
+</div>
+<p class="hint">إعداد المعلمة: نرجس الغامدي · الثانوية الخامسة والثمانون · أحياء ٢</p>
+</section>
+
+<section class="view center honor" id="v-honor">
+<svg class="bigstar"><use href="#st"/></svg>
+<div class="lbl">نجمة اليوم</div>
+<div class="nm" id="hn"></div>
+<div class="lbl" id="hcl" style="font-size:19px;color:#fff"></div>
+<div class="motto">أبدعتِ… وتألق اسمكِ بين النجوم!</div>
+<div class="msg" id="hm"></div>
+<div class="cnt" id="hc"></div>
+<div class="ctl">
+<button class="btn gold" id="b-other">اختيار نجمة أخرى</button>
+<button class="btn" id="b-all">عرض جميع النجمات</button>
+<button class="btn ghost" id="b-share">مشاركة التكريم</button>
+<button class="btn ghost" id="b-cert">طباعة شهادة نجمة اليوم</button>
+</div>
+</section>
+
+<section class="view" id="v-list">
+<div class="card"><h2>نجمات الصف</h2><select id="lcls" aria-label="الفصل"></select>
+<div class="tabs"><button class="btn on" data-t="g">حسب الطالبة</button><button class="btn" data-t="l">سجل التكريمات</button></div>
+<div id="lst"></div><button class="btn ghost" id="lp" style="width:100%;margin-top:10px">طباعة سجل هذا الفصل</button></div>
+</section>
+
+<section class="view center" id="v-lock"><div class="card center" style="max-width:380px;margin:40px auto"><h2>لوحة المعلمة</h2><p class="hint">أدخلي الرقم السري للدخول</p><input id="pin" type="password" inputmode="numeric" autocomplete="off" placeholder="الرقم السري" style="text-align:center;letter-spacing:6px" aria-label="الرقم السري"><button class="btn gold big" id="pin-b">دخول</button></div></section>
+
+<section class="view" id="v-admin">
+<div class="card"><h2>إحصائيات</h2><div class="stats" id="stats"></div><div class="stats" id="ccnt" style="margin-top:12px;grid-template-columns:repeat(5,1fr)"></div></div>
+<div class="card"><h2>الفصل الدراسي والشعبة</h2>
+<div class="row"><select id="grade"><option>الأول الثانوي</option><option>الثاني الثانوي</option><option>الثالث الثانوي</option></select>
+<select id="term"><option>الفصل الدراسي الأول</option><option>الفصل الدراسي الثاني</option><option>الفصل الدراسي الثالث</option></select>
+<input id="sec" placeholder="الشعبة (مثال: ٣/١)"></div>
+<label><input type="checkbox" id="dup" style="width:auto;margin-left:8px">السماح بتكرار الأسماء في القائمة</label></div>
+<div class="card"><h2>الطالبات</h2><select id="acls" aria-label="الفصل"></select>
+<div class="row"><input id="add" placeholder="اسم الطالبة"><button class="btn gold" id="add-b" style="flex:0 0 auto">إضافة</button></div>
+<h3>لصق قائمة كاملة</h3>
+<textarea id="bulk" placeholder="الصقي الأسماء هنا، اسم في كل سطر"></textarea>
+<button class="btn" id="bulk-b">إضافة القائمة</button>
+<h3>القائمة الحالية <span id="n"></span></h3><div id="slist"></div><button class="btn ghost" id="ap" style="margin-top:10px">طباعة سجل التكريمات لهذا الفصل</button></div>
+<div class="card"><h2>اختيار نجمة اليوم</h2>
+<select id="msel"></select>
+<input id="dt" type="date" aria-label="تاريخ التكريم">
+<div class="row"><button class="btn gold" id="m-b">تكريم الطالبة المحددة</button><button class="btn" id="r-b">اختيار عشوائي 🎲</button></div>
+<label class="hint"><input type="checkbox" id="nr" style="width:auto;margin-left:8px">في العشوائي: استبعاد من تم تكريمهن</label></div>
+<div class="card"><h2>تصدير واستيراد</h2>
+<textarea id="io" placeholder="هنا يظهر المُصدَّر، أو الصقي ما تريدين استيراده (أسماء أو نسخة كاملة)"></textarea>
+<div class="row"><button class="btn" id="ex-n">تصدير الأسماء</button><button class="btn" id="ex-f">تصدير نسخة كاملة</button><button class="btn" id="cp">نسخ</button><button class="btn gold" id="im">استيراد</button></div>
+<p class="hint">يمكنكِ أيضًا اختيار ملف نصي أو JSON:</p><input type="file" id="file" accept=".txt,.json,.csv"></div>
+<div class="card"><h2>إعادة الضبط</h2><p class="hint">تمسح سجل التكريمات للفصل المحدد فقط وتُبقي أسماء الطالبات.</p><button class="btn danger" id="rst">إعادة ضبط سجل النجمات</button></div>
+</section>
+
+<section class="view" id="v-plog"><div class="noprint card center"><button class="btn gold big" id="pp">طباعة سجل التكريمات</button><button class="btn ghost" id="pb" style="margin-top:8px">رجوع</button></div><div class="card" id="pl"></div></section>
+
+<section class="view center" id="v-cert">
+<div class="noprint card"><button class="btn gold big" id="pr">طباعة / حفظ PDF</button><p class="hint" style="margin:10px 0 0">اختاري «حفظ كـ PDF» من نافذة الطباعة. الشهادة صفحة A4 واحدة.</p><button class="btn ghost" id="cb" style="margin-top:8px">رجوع</button></div>
+<div class="certwrap" id="cw"><div class="cert" id="cert"><div class="in">
+<svg class="bs"><use href="#st"/></svg>
+<p class="c1" id="cd"></p>
+<p class="c2">شهادة نجمة اليوم</p>
+<p class="c3">تُمنح هذه الشهادة للطالبة المتميزة</p>
+<p class="c4" id="cn"></p>
+<p class="c5" id="ct"></p>
+<div class="ft"><span>المعلمة: نرجس الغامدي</span><span>الثانوية الخامسة والثمانون</span><span>مادة أحياء ٢</span></div>
+</div></div></div>
+</section>
+</main>
+<button id="mt" class="noprint" aria-label="تشغيل أو كتم الصوت"></button>
+<div id="toast" role="status"></div>
+<script>
+(function(){
+var $=function(s){return document.querySelector(s)},$$=function(s){return [].slice.call(document.querySelectorAll(s))};
+var KEY='najmat_alyoum_v1',D;
+function load(){try{var r=JSON.parse(localStorage.getItem(KEY));if(r&&r.students)return r}catch(e){}return {students:[],log:[],cfg:{grade:'الأول الثانوي',term:'الفصل الدراسي الأول',sec:'',dup:false}}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(D))}catch(e){toast('تعذر الحفظ في هذا المتصفح')}}
+var CLS=['2','3','4','5','6'];
+var DATA={'2':'إسراء عبدالله|أسماء زاده|إيمان العزازي|جنى مهري|حلا الشهري|حنان القرني|دانة باطراح|راما إبراهيم|ردينا الحداد|رندا باصم|رهف الخضيري|رهف مرزوق|ريتاج السيد|ريماس سويلم|ريناد داحمه|سارة الأتاسي|سما الوهاب|سيدال الصمادي|عهود الهجري|غدير فاضل|فاطمة العبدالله|فرح الحرازي|فيروز إسماعيل|لين عبدو|لين كريبي|لين العمراني|مارية حسون|مارية عزان|مانا عثمان|نور شنو|نورين باسلمه|هدى غالب|هيا عز الدين',
+'3':'أسماء هزاع|العنود العامري|إيمان أبوشرخ|أبرار الصغير|أم الخير بريميو|أميرة حسن|جنى بايزيد|جنى محمد|جود حسن|جوري حتيريش|دانة أغنا|دانية الجهني|دعاء يافعي|راما كليب|ريتال محمد|ريناد سعد|سارة جميل|شيخة العامري|شيماء فليس|صالحة الأحمر|عائشة خان|عزيزة الأطرش|عهود الحبيشي|عواطف المدني|غزل الأورفه لي|فادية الحامد|فاطمة بن وبر|لارا الأتاسي|لجين عمر|لنا باطرقي|محاسن أبو بكر|مريم الخالقي|ملك الكثيري|يارا أعليان',
+'4':'أسماء إسحاق|البتول الملح|أسيل الزبيدي|ألين الحربي|تالا باجندوح|جنى الهندود|جود سالم|حليمة صلاح|داليا إسماعيل|رغد طالب|رغد البكري|رهف فضائل|ريتاج عبدالباري|ريناد المصري|سارة الشرفا|سعاد فارس|سما الحرثاني|فاطمة شلهوب|لمار المنصوري|لمار الغامدي|ليان الشعبان|ليلاس الزعيم|ليلى إبراهيم|لين باديبان|مرام الداعور|مريم العفيف|ميس السباعي|نور باصالح|نورا علي|نورة أحمد|هاجر السقاف|هنادي خوجه',
+'5':'آية الخديدي|أسيل مهدي|إيلان الرشيدي|بشاير الشريف|جود نشوان|جودي الكسور|ريغال بلقاس|ريماس عانوز|شوق صميلي|شيماء باشميل|غزل شرف|كندة الزهراني|ليان الضلاع|ليان باحكيم|ليان شاهين|لين شما|لين دباغ|لينا باحكيم|مرح قطيش|ملك الطاهر|منة الطاهر|ميس صانع|نور السقير|همس ماحي|هيا البلعاوي|زين آدم|سارة مشرف|سارة الشريف|سجى باتيس|شموخ كليب|غلا بخش|نداء أبكر|هتون صالح|وسن العلياني',
+'6':'آية جابر|بسمة جرمه|تالا الشريف|تالين الشريف|تولين الرشيدي|جنى الحمود|جود العمودي|جودي الجرايحي|حنان عثمان|خديجة حنين|راما شاكر|راوية يحيى|رندا سليمان|ريتال عبدالرب|ريم عيسى|سارة أحمدين|شهد أبو رجب|عفاف عمران|عائشة بالغيث|فاطمة سعيد|فاطمة البيتي|لارا باحسن|لمار الفرا|لمار عسكر|ليان علوي|مرح الشمري|ملك الغزاوي|ميار بامرضاح|ميرة العزي|ندى أحمد|نور وبر|ولاء عبدالله'};
+function seed(){var o=[];CLS.forEach(function(c){DATA[c].split('|').forEach(function(n,i){o.push({id:uid()+c+i,name:n,cls:c})})});return o}
+function mig(d){d.cfg=d.cfg||{};if(!d.v||d.v<2){var sn=['ليلاس','ميس','مرام','ليان','فاطمة'];d.students=d.students.filter(function(s){return s.cls||!(sn.indexOf(s.name)>-1&&!d.log.some(function(e){return e.sid===s.id}))});d.students.forEach(function(s){if(!s.cls)s.cls='2'});seed().forEach(function(s){if(!d.students.some(function(x){return x.cls===s.cls&&x.name===s.name}))d.students.push(s)});d.v=2}if(CLS.indexOf(d.cfg.cls)<0)d.cfg.cls='2';return d}
+function AD(c){return String(c).replace(/\d/g,function(d){return '٠١٢٣٤٥٦٧٨٩'.charAt(d)})}
+function CL(c){return 'ثاني ثانوي / '+AD(c)}
+function inCls(c){return D.students.filter(function(s){return s.cls===c})}
+function ecls(e){if(e.cls)return e.cls;var s=D.students.filter(function(x){return x.id===e.sid})[0];return s?s.cls:''}
+function clog(c){return D.log.filter(function(e){return ecls(e)===c})}
+function fillCls(sel){sel.innerHTML=CLS.map(function(c){return '<option value="'+c+'">'+CL(c)+'</option>'}).join('');sel.value=D.cfg.cls}
+function mvOpts(c){return '<option value="">نقل إلى فصل…</option>'+CLS.filter(function(x){return x!==c}).map(function(x){return '<option value="'+x+'">'+CL(x)+'</option>'}).join('')}
+function nk(s){return String(s).replace(/[أإآ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').replace(/\s+/g,' ').trim()}
+function parseImp(t){var m={},c=D.cfg.cls;t.split(/\n/).forEach(function(l){var h=l.match(/ثاني ثانوي\s*\/\s*([٢-٦2-6])/);if(h){c=String(h[1]).replace(/[٢-٦]/g,function(x){return x.charCodeAt(0)-1632});return}lines(l).forEach(function(n){n=norm(n);if(n)(m[c]=m[c]||[]).push(n)})});return m}
+function addMap(m){var r=[];Object.keys(m).forEach(function(c){if(CLS.indexOf(c)>-1)r.push(CL(c)+': '+addNames(m[c],c))});return r.join(' | ')||'لا توجد أسماء'}
+D=mig(load());
+var MSGS=['أنتِ نجمة تضيء طريق التميز.','إبداعكِ اليوم يصنع نجاحكِ غدًا.','تميزكِ ليس صدفة، بل ثمرة اجتهادكِ.','استمري، فمكانكِ دائمًا في القمة.','فخورة بكِ وبإنجازكِ الجميل.','بصمتكِ في الأحياء تشهد على شغفكِ.','كل خطوة تخطينها تقرّبكِ من حلمكِ.','عقلكِ المبدع يستحق كل التصفيق.','تفاعلكِ الإيجابي ومشاركتكِ الفاعلة أضفيا حيوية وتميزًا على الحصة.','أسئلتكِ وأفكاركِ اليوم أثرت النقاش، شكرًا لحضوركِ المميز.','حرصكِ على المناقشة والإجابة يصنع الفرق، واصلي تألقكِ.'];
+var cur=null,lastMsg=-1,tab='g';
+function uid(){return Date.now().toString(36)+Math.random().toString(36).slice(2,6)}
+function today(){var d=new Date();return d.getFullYear()+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+('0'+d.getDate()).slice(-2)}
+function fd(s,w){try{var o={year:'numeric',month:'long',day:'numeric'};if(w)o.weekday='long';return new Date(s+'T12:00:00').toLocaleDateString('ar-SA-u-ca-gregory',o)}catch(e){return s}}
+function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML}
+function norm(s){return String(s).replace(/\s+/g,' ').trim()}
+var tt;function toast(m){var t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(tt);tt=setTimeout(function(){t.classList.remove('on')},2600)}
+function armed(b,fn){var o=b.textContent;b.addEventListener('click',function(){if(b._a){b._a=0;b.textContent=o;fn()}else{b._a=1;b.textContent='اضغطي مرة أخرى للتأكيد';setTimeout(function(){b._a=0;b.textContent=o},3000)}})}
+function star(){return '<svg><use href="#st"/></svg>'}
+/* sky + confetti */
+var RM=window.matchMedia&&matchMedia('(prefers-reduced-motion:reduce)').matches;
+(function(){var s=$('#sky');for(var i=0;i<70;i++){var e=document.createElement('i');e.style.cssText='left:'+Math.random()*100+'%;top:'+Math.random()*100+'%;animation-delay:'+Math.random()*3+'s;animation-duration:'+(2+Math.random()*3)+'s';s.appendChild(e)}})();
+var cv=$('#cv'),cx=cv.getContext('2d'),P=[],W,H;
+function rs(){W=cv.width=innerWidth;H=cv.height=innerHeight}rs();addEventListener('resize',function(){rs();fit()});
+function mk(burst){var c=['#ffc83d','#fff','#ffe07a','#fff3b0'][Math.random()*4|0];return{x:Math.random()*W,y:burst?H*.35:-10-Math.random()*H,vx:(Math.random()-.5)*(burst?10:1),vy:burst?-Math.random()*9-2:Math.random()*1.2+.6,w:5+Math.random()*7,h:3+Math.random()*5,r:Math.random()*6,vr:(Math.random()-.5)*.2,c:c,b:burst}}
+if(!RM){for(var i=0;i<45;i++)P.push(mk(0))}
+function burst(){if(RM)return;for(var i=0;i<180;i++)P.push(mk(1))}
+function tick(){cx.clearRect(0,0,W,H);for(var i=P.length-1;i>=0;i--){var p=P[i];p.x+=p.vx;p.y+=p.vy;p.r+=p.vr;if(p.b){p.vy+=.18;p.vx*=.99}cx.save();cx.translate(p.x,p.y);cx.rotate(p.r);cx.fillStyle=p.c;cx.fillRect(-p.w/2,-p.h/2,p.w,p.h);cx.restore();if(p.y>H+20){if(p.b)P.splice(i,1);else{p.y=-10;p.x=Math.random()*W}}}requestAnimationFrame(tick)}
+tick();
+/* sound */
+var AC=null;
+function note(f,s,d,v){var o=AC.createOscillator(),g=AC.createGain();o.type='triangle';o.frequency.value=f;g.gain.setValueAtTime(0,s);g.gain.linearRampToValueAtTime(v,s+.02);g.gain.exponentialRampToValueAtTime(.0001,s+d);o.connect(g);g.connect(AC.destination);o.start(s);o.stop(s+d+.05)}
+var NB=null;
+function clap(t){if(!NB){NB=AC.createBuffer(1,AC.sampleRate,AC.sampleRate);var d=NB.getChannelData(0);for(var i=0;i<d.length;i++)d[i]=Math.random()*2-1}var m=AC.createDynamicsCompressor(),mg=AC.createGain();mg.gain.value=1.8;m.connect(mg);mg.connect(AC.destination);for(var k=0;k<220;k++){var u=Math.random(),s=t+.35+u*3.6,env=Math.sin(Math.PI*Math.min(1,u*1.1))*.8+.2,src=AC.createBufferSource(),f=AC.createBiquadFilter(),g=AC.createGain();src.buffer=NB;f.type='bandpass';f.frequency.value=900+Math.random()*2600;f.Q.value=.7;g.gain.setValueAtTime(0,s);g.gain.linearRampToValueAtTime(.8*env*(.5+Math.random()*.5),s+.003);g.gain.exponentialRampToValueAtTime(.0001,s+.07+Math.random()*.09);src.connect(f);f.connect(g);g.connect(m);src.start(s,Math.random()*.8,.15)}}
+function snd(){if(D.cfg.mute)return;try{AC=AC||new (window.AudioContext||window.webkitAudioContext)();if(AC.state==='suspended')AC.resume();var t=AC.currentTime;[523.25,659.25,783.99,1046.5,1318.5,1568].forEach(function(f,i){note(f,t+i*.09,.5,.16)});[523.25,659.25,783.99,1046.5].forEach(function(f){note(f,t+.75,1.6,.14)});for(var i=0;i<9;i++)note(2000+Math.random()*2200,t+.85+i*.11,.3,.04);clap(t)}catch(e){}}
+function mtx(){$('#mt').textContent=D.cfg.mute?'🔇':'🔊'}mtx();
+$('#mt').onclick=function(){D.cfg.mute=!D.cfg.mute;save();mtx();if(!D.cfg.mute)snd()};
+/* views */
+var OK=false;function show(v){var nv=(v==='admin'&&!OK)?'lock':v;$$('.view').forEach(function(e){e.classList.toggle('on',e.id==='v-'+nv)});$$('#nav button').forEach(function(b){b.classList.toggle('on',b.dataset.go===v)});scrollTo(0,0);document.documentElement.classList.toggle('pl',nv==='plog');if(nv==='lock')$('#pin').value='';
+if(v==='home')rHome();if(v==='list')rList();if(v==='admin'&&OK)rAdmin();if(v==='cert')fit()}
+$$('#nav button').forEach(function(b){b.onclick=function(){show(b.dataset.go)}});
+/* pin */
+function HH(s){var h1=0xdeadbeef,h2=0x41c6ce57;for(var i=0;i<s.length;i++){var c=s.charCodeAt(i);h1=Math.imul(h1^c,2654435761);h2=Math.imul(h2^c,1597334677)}h1=Math.imul(h1^(h1>>>16),2246822507)^Math.imul(h2^(h2>>>13),3266489909);h2=Math.imul(h2^(h2>>>16),2246822507)^Math.imul(h1^(h1>>>13),3266489909);return(4294967296*(2097151&h2)+(h1>>>0)).toString(36)}
+function tryPin(){var p=$('#pin').value.replace(/[\u0660-\u0669]/g,function(c){return c.charCodeAt(0)-1632}).replace(/[\u06f0-\u06f9]/g,function(c){return c.charCodeAt(0)-1776}).replace(/\s/g,'');if(HH('najma|'+p)==='1z10mv9raze'){OK=true;show('admin')}else{toast('الرقم السري غير صحيح');$('#pin').value=''}}
+$('#pin-b').onclick=tryPin;$('#pin').onkeydown=function(e){if(e.key==='Enter')tryPin()};
+/* home */
+function opts(sel,filter,all){var h='';D.students.filter(function(s){return s.cls===D.cfg.cls&&(!filter||nk(s.name).indexOf(nk(filter))>-1)}).forEach(function(s){h+='<option value="'+s.id+'">'+esc(s.name)+'</option>'});if(!h)h='<option value="">'+(inCls(D.cfg.cls).length?'لا توجد نتائج':'لم تُضف أسماء بعد')+'</option>';sel.innerHTML=h}
+function rHome(){fillCls($('#csel'));opts($('#sel'),'');$('#cls').textContent=CL(D.cfg.cls)+' · '+inCls(D.cfg.cls).length+' طالبة'}
+$('#csel').onchange=function(){D.cfg.cls=this.value;save();rHome()};
+
+$('#go').onclick=function(){var id=$('#sel').value;if(!id)return toast(D.students.length?'اختاري اسم الطالبة أولًا':'أضيفي أسماء الطالبات من لوحة المعلمة');pick(id)};
+/* honor */
+function pick(id,date){var s=D.students.filter(function(x){return x.id===id})[0];if(!s)return;var e={id:uid(),sid:s.id,name:s.name,cls:s.cls,date:date||today(),ts:Date.now()};D.log.push(e);save();cur=e;rHonor();show('honor');snd();burst();setTimeout(burst,900)}
+function cntOf(e){return D.log.filter(function(x){return x.sid===e.sid&&x.ts<=e.ts}).length}
+function rHonor(){var w=cur.name.split(' '),h='';w.forEach(function(x,i){h+='<span style="animation-delay:'+.35+'s">'+esc(x)+'</span> '});$('#hn').innerHTML=h;$('#hcl').textContent=CL(cur.cls);var k;do{k=Math.random()*MSGS.length|0}while(k===lastMsg&&MSGS.length>1);lastMsg=k;cur.m=MSGS[k];$('#hm').textContent=MSGS[k];var n=cntOf(cur);$('#hc').textContent=n>1?'تكريمكِ رقم '+n+' · '+fd(cur.date):'أول تكريم لكِ ⭐ · '+fd(cur.date)}
+$('#b-other').onclick=function(){show('home')};
+$('#b-all').onclick=function(){show('list')};
+$('#b-cert').onclick=function(){openCert(cur)};
+$('#b-share').onclick=function(){var t='⭐ نجمة اليوم: '+cur.name+' – '+CL(cur.cls)+'\nأبدعتِ… وتألق اسمكِ بين النجوم!\n'+(cur.m||'')+'\nالمعلمة نرجس الغامدي · الثانوية الخامسة والثمانون';
+if(navigator.share){navigator.share({title:'نجمة اليوم',text:t}).catch(function(){})}else copy(t,'تم نسخ نص التكريم للمشاركة')}
+function copy(t,m){function fb(){var a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy');toast(m)}catch(e){toast('تعذر النسخ')}a.remove()}
+if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(function(){toast(m)},fb);else fb()}
+/* list */
+$$('.tabs .btn').forEach(function(b){b.onclick=function(){tab=b.dataset.t;rList()}});
+function rList(){fillCls($('#lcls'));var LG=clog(D.cfg.cls);$$('.tabs .btn').forEach(function(b){b.classList.toggle('on',b.dataset.t===tab)});var L=$('#lst');if(!LG.length){L.innerHTML='<p class="hint">لم يتم تكريم أي طالبة في هذا الفصل بعد. اختاري نجمة اليوم من الصفحة الرئيسية.</p>';return}var h='';
+if(tab==='g'){var g={};LG.forEach(function(e){var k=e.sid||e.name;(g[k]=g[k]||[]).push(e)});Object.keys(g).map(function(k){return g[k]}).sort(function(a,b){return b[b.length-1].ts-a[a.length-1].ts}).forEach(function(a){var l=a[a.length-1];h+='<details class="item" style="display:block"><summary style="display:flex;align-items:center;gap:10px">'+star()+'<span class="t">'+esc(l.name)+'<small>آخر تكريم: '+fd(l.date)+'</small></span><span class="badge">×'+a.length+'</span></summary><div style="padding:8px 44px 0">';a.slice().reverse().forEach(function(e){h+='<div class="item" style="padding:6px 0"><span class="t">'+fd(e.date)+'</span><button class="btn ghost" style="padding:6px 12px;font-size:14px" data-c="'+e.id+'">شهادة</button></div>'});h+='</div></details>'})}
+else LG.slice().sort(function(a,b){return b.ts-a.ts}).forEach(function(e){h+='<div class="item">'+star()+'<span class="t">'+esc(e.name)+'<small>'+fd(e.date)+'</small></span><button class="btn ghost" style="padding:6px 12px;font-size:14px" data-c="'+e.id+'">شهادة</button></div>'});
+L.innerHTML=h;$$('[data-c]').forEach(function(b){b.onclick=function(ev){ev.preventDefault();openCert(D.log.filter(function(e){return e.id===b.dataset.c})[0])}})}
+$('#lcls').onchange=function(){D.cfg.cls=this.value;save();rList()};
+var plFrom='list';
+function printLog(c,f){plFrom=f;var L=clog(c),g={};L.forEach(function(e){var k=e.sid||e.name;(g[k]=g[k]||[]).push(e)});var rows=Object.keys(g).map(function(k){return g[k]}).sort(function(a,b){return b[b.length-1].ts-a[a.length-1].ts}).map(function(a,i){return '<tr><td>'+(i+1)+'</td><td>'+esc(a[a.length-1].name)+'</td><td>'+CL(c)+'</td><td>'+a.length+'</td><td>'+a.map(function(e){return fd(e.date)}).join('، ')+'</td></tr>'}).join('')||'<tr><td colspan="5">لا توجد تكريمات مسجلة لهذا الفصل بعد.</td></tr>';$('#pl').innerHTML='<h2 style="text-align:center;margin-top:0">سجل نجمة اليوم – '+CL(c)+'</h2><p style="text-align:center">المعلمة: نرجس الغامدي · الثانوية الخامسة والثمانون · أحياء ٢<br>'+fd(today(),1)+'</p><table class="tbl"><thead><tr><th>م</th><th>اسم الطالبة</th><th>الفصل</th><th>عدد مرات التكريم</th><th>تواريخ التكريم</th></tr></thead><tbody>'+rows+'</tbody></table><p>عدد طالبات الفصل: '+inCls(c).length+' · عدد التكريمات: '+L.length+'</p>';show('plog')}
+$('#lp').onclick=function(){printLog(D.cfg.cls,'list')};
+$('#ap').onclick=function(){printLog(D.cfg.cls,'admin')};
+$('#pp').onclick=function(){try{window.print()}catch(e){toast('استخدمي أمر الطباعة في المتصفح')}};
+$('#pb').onclick=function(){show(plFrom)};
+$('#acls').onchange=function(){D.cfg.cls=this.value;save();rAdmin()};
+/* certificate */
+var certFrom='honor';
+function openCert(e){if(!e)return;certFrom=$('#v-honor').classList.contains('on')?'honor':'list';$('#cn').textContent=e.name;var c=D.cfg;$('#ct').textContent='شكرًا وتقديرًا لتميّزكِ واجتهادكِ ومشاركتكِ المبدعة في مادة أحياء ٢. دمتِ نجمةً تضيء بين زميلاتكِ وطريقكِ دائمًا نحو القمة.';$('#cd').textContent=fd(today(),1);$('#ct').innerHTML='تقديرًا لتفاعلها الإيجابي ومشاركتها الفاعلة أثناء الحصة وحرصها على المناقشة والإجابة وطرح الأفكار مما أضفى على الدرس حيويةً وتميزًا.<br><br>شكرًا لكِ على حضوركِ المميز وروحكِ المتفاعلة، واصلي تألقكِ وإبداعكِ.';show('cert')}
+function fit(){var w=$('#cw'),s=Math.min(1,(w.clientWidth||1122)/1122);w.style.setProperty('--s',s);w.style.height=(790*s)+'px'}
+$('#pr').onclick=function(){try{window.print()}catch(e){toast('استخدمي أمر الطباعة في المتصفح')}};
+$('#cb').onclick=function(){show(certFrom)};
+addEventListener('beforeprint',function(){$('#cw').style.height='auto'});addEventListener('afterprint',fit);
+/* admin */
+function rAdmin(){var c=D.cfg;$('#grade').value=c.grade||'الأول الثانوي';$('#term').value=c.term||'الفصل الدراسي الأول';$('#sec').value=c.sec||'';$('#dup').checked=!!c.dup;$('#dt').value=today();
+var ids={};D.log.forEach(function(e){ids[e.sid]=1});var hon=inCls(D.cfg.cls).filter(function(s){return ids[s.id]}).length;fillCls($('#acls'));$('#ccnt').innerHTML=CLS.map(function(c){return '<div><b>'+inCls(c).length+'</b>فصل '+AD(c)+'</div>'}).join('');
+$('#stats').innerHTML='<div><b>'+inCls(D.cfg.cls).length+'</b>طالبات الفصل</div><div><b>'+hon+'</b>مكرَّمة</div><div><b>'+clog(D.cfg.cls).length+'</b>تكريم</div>';
+$('#n').textContent='('+inCls(D.cfg.cls).length+')';opts($('#msel'));
+var h='';inCls(D.cfg.cls).forEach(function(s){h+='<div class="stu"><input value="'+esc(s.name).replace(/"/g,'&quot;')+'" data-e="'+s.id+'" aria-label="اسم الطالبة"><select data-m="'+s.id+'" aria-label="نقل إلى فصل">'+mvOpts(s.cls)+'</select><button class="btn" data-s="'+s.id+'">حفظ</button><button class="btn danger" data-d="'+s.id+'">حذف</button></div>'});
+$('#slist').innerHTML=h||'<p class="hint">لا توجد أسماء بعد.</p>';
+$$('[data-s]').forEach(function(b){b.onclick=function(){var v=norm($('[data-e="'+b.dataset.s+'"]').value);if(!v)return toast('الاسم فارغ');if(isDup(v,D.cfg.cls,b.dataset.s))return toast('هذا الاسم موجود مسبقًا');D.students.forEach(function(s){if(s.id===b.dataset.s)s.name=v});D.log.forEach(function(e){if(e.sid===b.dataset.s)e.name=v});save();toast('تم تعديل الاسم');rAdmin()}});
+$$('[data-m]').forEach(function(m){m.onchange=function(){var t=m.value;if(!t)return;var s=D.students.filter(function(x){return x.id===m.dataset.m})[0];if(!s)return;if(isDup(s.name,t,s.id)){toast('يوجد اسم مطابق في الفصل المختار');m.value='';return}s.cls=t;D.log.forEach(function(e){if(e.sid===s.id)e.cls=t});save();toast('تم نقل '+s.name+' إلى '+CL(t));rAdmin()}});
+$$('[data-d]').forEach(function(b){var o=b.textContent;b.onclick=function(){if(b._a){D.students=D.students.filter(function(s){return s.id!==b.dataset.d});save();toast('تم حذف الاسم');rAdmin()}else{b._a=1;b.textContent='تأكيد؟';setTimeout(function(){b._a=0;b.textContent=o},2500)}}})}
+function isDup(n,c,except){if(D.cfg.dup)return false;return D.students.some(function(s){return s.cls===c&&s.name===n&&s.id!==except})}
+function addNames(a,c){c=c||D.cfg.cls;var add=0,skip=0;a.forEach(function(n){n=norm(n);if(!n)return;if(isDup(n,c)){skip++;return}D.students.push({id:uid()+add,name:n,cls:c});add++});save();return add+' مضافة'+(skip?' · '+skip+' مكررة تم تجاهلها':'')}
+$('#add-b').onclick=function(){var v=$('#add').value;if(!norm(v))return toast('اكتبي اسم الطالبة');toast(addNames([v]));$('#add').value='';rAdmin()};
+$('#add').onkeydown=function(e){if(e.key==='Enter')$('#add-b').click()};
+function lines(t){return t.split(/[\n\r,،;؛]+/).map(function(l){return l.replace(/^\s*[\d٠-٩]+\s*[-.)–:،]*\s*/,'')})}
+$('#bulk-b').onclick=function(){var a=lines($('#bulk').value);if(!a.join('').trim())return toast('الصقي الأسماء أولًا');toast(addMap(parseImp($('#bulk').value)));$('#bulk').value='';rAdmin()};
+['grade','term','sec'].forEach(function(k){$('#'+k).onchange=$('#'+k).oninput=function(){D.cfg[k]=this.value;save()}});
+$('#dup').onchange=function(){D.cfg.dup=this.checked;save()};
+$('#m-b').onclick=function(){var id=$('#msel').value;if(!id)return toast('لا توجد طالبة محددة');pick(id,$('#dt').value||today())};
+$('#r-b').onclick=function(){var ids={};D.log.forEach(function(e){ids[e.sid]=1});var pool=D.students.filter(function(s){return s.cls===D.cfg.cls&&(!$('#nr').checked||!ids[s.id])});if(!pool.length)return toast(D.students.length?'تم تكريم جميع الطالبات':'لا توجد أسماء');pick(pool[Math.random()*pool.length|0].id,$('#dt').value||today())};
+armed($('#rst'),function(){D.log=D.log.filter(function(e){return ecls(e)!==D.cfg.cls});save();toast('تمت إعادة ضبط سجل '+CL(D.cfg.cls));rAdmin()});
+$('#ex-n').onclick=function(){$('#io').value=CLS.map(function(c){return CL(c)+'\n'+inCls(c).map(function(s){return s.name}).join('\n')}).join('\n\n');toast('تم تجهيز قائمة الأسماء، اضغطي نسخ')};
+$('#ex-f').onclick=function(){$('#io').value=JSON.stringify(D);toast('تم تجهيز النسخة الكاملة، اضغطي نسخ')};
+$('#cp').onclick=function(){var t=$('#io').value;if(!t)return toast('لا يوجد ما يُنسخ');copy(t,'تم النسخ')};
+$('#im').onclick=function(){var t=$('#io').value.trim();if(!t)return toast('الصقي ما تريدين استيراده');if(t[0]==='{'){try{var o=JSON.parse(t);if(!o.students||!o.log)throw 0;D=mig(o);save();toast('تم استيراد النسخة الكاملة');$('#io').value='';rAdmin()}catch(e){toast('ملف النسخة غير صالح')}}else{toast(addMap(parseImp(t)));$('#io').value='';rAdmin()}};
+$('#file').onchange=function(){var f=this.files[0];if(!f)return;var r=new FileReader();r.onload=function(){$('#io').value=r.result;toast('تم تحميل الملف، اضغطي استيراد')};r.readAsText(f)};
+show('home');
+})();
+</script>
+</body>
+</html>
